@@ -48,6 +48,7 @@ table {
 }
 
 .material-symbols-outlined {
+  font-size: 40px;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -84,6 +85,41 @@ table {
 
 .formbox {
 	width: 60%;
-	background-color: black;
+	/* background-color: rgb(2, 3, 27); */
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.blurb {
+	font-size: 24px;
+	line-height: 1.2;
+	padding: 10px;
+	border: 1px solid red;
+}
+
+.blurb p:nth-child(3) {
+	margin-top: 20px;
+}
+
+form {
+	border:1px solid blue;
+}
+
+form legend {
+	font-size: 24px;
+}
+
+form label {
+	font-size: 20px;
+}
+
+.form p {
+	border:1px solid green;
+}
+
+.italic {
+	font-style: italic;
 }
