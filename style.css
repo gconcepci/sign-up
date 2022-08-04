@@ -180,6 +180,10 @@ button:hover {
 	font-style: italic;
 }
 
-.login:visited {
+.login {
 	color: #e07303;
+}
+
+.login:visited {
+	color: #894501;
 }
