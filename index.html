@@ -7,6 +7,9 @@
     <title>Travel Form</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -30,29 +33,42 @@
                 <form action="" method="post">
                     <fieldset>
                         <legend>Lets do this!</legend>
+                        
+                        <div class="form-input">
                         <label for="first-name">First Name</label>
                         <input type="text" name="first-name" id="first-name" required>
+                        </div>
 
+                        <div class="form-input">
                         <label for="last-name">Last Name</label>
                         <input type="text" name="last-name" id="last-name" required>
+                        </div>
 
+                        <div class="form-input">
                         <label for="email">Email Address</label>
                         <input type="email" name="email" id="email" required>
+                        </div>
 
+                        <div class="form-input">
                         <label for="phone">Phone Number</label>
                         <input type="tel" name="phone" id="phone" required>
+                        </div>
 
+                        <div class="form-input">
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" required>
+                        </div>
 
+                        <div class="form-input">
                         <label for="confirm-password">Confirm Password</label>
                         <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
 
                         <button type="submit">Create Account</button>
                     </fieldset>
                 </form>
 
-                <p>Already have an account? <a href="#">Log in</a></p>
+                <p>Already have an account? <a class="login" href="#">Log in</a></p>
             </div>
         </div>
     </div>

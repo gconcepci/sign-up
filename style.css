@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 .material-symbols-outlined {
   font-size: 40px;
   font-variation-settings:
@@ -85,7 +89,7 @@ table {
 
 .formbox {
 	width: 60%;
-	/* background-color: rgb(2, 3, 27); */
+	background-color: rgb(2, 3, 15);
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -94,32 +98,88 @@ table {
 }
 
 .blurb {
+	color: #ddd;
 	font-size: 24px;
 	line-height: 1.2;
 	padding: 10px;
-	border: 1px solid red;
+	width: 900px;
+	margin-left: 20px;
 }
 
 .blurb p:nth-child(3) {
+	margin-top: 0px;
+}
+
+
+fieldset {
 	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	width: 700px;
+	background-color:rgba(11, 7, 37, 0.884);
+	gap: 20px;
+	color: #ddd;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	margin-left: 20px;
 }
 
-form {
-	border:1px solid blue;
-}
-
-form legend {
+fieldset legend {
 	font-size: 24px;
+	margin-bottom: 10px;
+	color: #e07303;
 }
 
-form label {
-	font-size: 20px;
+fieldset label {
+	font-size: 18px;
+
+}
+
+fieldset input {
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
 }
 
 .form p {
-	border:1px solid green;
+	color: #ddd;
+	font-size: 18px;
+	margin-top: 18px;
+	margin-left: 20px;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+}
+
+form input:focus {
+	border: 3px solid #e07303;
+	outline-color: #e07303;
+}
+
+button {
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: transparent;
+	color: #e07303;
+	border: 1px solid #e07303;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	color:rgba(3, 2, 10, 0.884);
+	background-color: #e07303;
 }
 
 .italic {
 	font-style: italic;
+}
+
+.login:visited {
+	color: #e07303;
 }
